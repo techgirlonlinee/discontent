@@ -1,0 +1,201 @@
+@font-face {
+    font-family: Adieu;
+    src: url(Adieu.otf) format('otf'),
+        url(Adieu.ttf) format('ttf'),
+        url(Adieu.woff) format('woff');
+}
+
+@font-face {
+    font-family: SW;
+    src: url(SuisseWorks.ttf) format('ttf'),
+        url(SuisseWorks.woff) format('woff');
+}
+
+body {
+    background-image: url(bg.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: SW;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.title {
+    position: absolute;
+    top: 110px;
+    padding: 40px;
+    font-family: Adieu;
+    line-height: 1.04;
+}
+
+.title .writer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#writer-name {
+    margin-right: 40px;
+}
+
+.title p {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+h1 {
+    font-size: 56px;
+    width: 860px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav p {
+    font-family: Adieu;
+    font-size: 24px;
+}
+
+img {
+    width: 150px;
+    /*display: none;*/
+}
+
+.main-img {
+    position: absolute;
+    top: 430px;
+    right: 230px;
+}
+
+section.opening-par {
+    position: absolute;
+    width: 680px;
+    height: 364px;
+    left: 351px;
+    top: 884px;
+}
+
+section.opening-par p {
+    padding: 12px 0px;
+}
+
+.first {
+    position: absolute;
+    width: 179px;
+    height: 179px;
+    left: 143px;
+    top: 1449px;
+}
+
+section.intro-text {
+    position: absolute;
+    width: 680.11px;
+    height: 130px;
+    left: 50%;
+    top: 1849px;
+    transform: translateX(-50%);
+}
+
+.instructions {
+    margin-top: 60px;
+    font-family: Adieu;
+    font-size: 14px;
+    color: #EAE6E6;
+}
+
+div.second {
+    position: absolute;
+    left: 340px;
+    top: 2250px;
+}
+
+div.second p {
+	width: 420px;
+	padding-top: 20px;
+	opacity: 0;
+	transition: all 1s ease;
+}
+
+div.second:hover p {
+	opacity: 1;
+}
+
+div.three {
+    position: absolute;
+    left: 970px;
+    top: 2650px;
+}
+
+div.three p {
+	width: 420px;
+	padding-top: 20px;
+	margin-left: -140px;
+	opacity: 0;
+	transition: all 1s ease;
+}
+
+div.three:hover p {
+	opacity: 1;
+}
+
+div.four {
+    position: absolute;
+    left: 140px;
+    top: 3000px;
+}
+
+div.four p {
+	width: 420px;
+	padding-top: 20px;
+	/*margin-left: -140px;*/
+	opacity: 0;
+	transition: all 1s ease;
+}
+
+div.four:hover p {
+	opacity: 1;
+}
+
+
+div.five {
+    position: absolute;
+    left: 680px;
+    top: 3500px;
+}
+
+div.six {
+    position: absolute;
+    top: 4000px;
+    left: 390px;
+}
+
+div.seven {
+    position: absolute;
+    top: 4500px;
+    right: 100px;
+}
+
+div.eight {
+    position: absolute;
+    top: 4950px;
+    left: 100px;
+}
+
+
+div.nine {
+    position: absolute;
+    top: 5450px;
+    left: 600px;
+    margin-bottom: 300px;
+}
+
+
+
+
